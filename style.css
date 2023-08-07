@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", "Rubik", "sans-serif";
+  background-image: linear-gradient(
+    to left,
+    rgb(125, 235, 255),
+    rgb(93, 220, 255),
+    rgb(0, 157, 255)
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: space-between;
+  /* background-color: #fff; */
+  border-radius: 20px;
+  padding: 30px 10px 30px 10px;
+}
+.container {
+  height: 100px;
+  width: 400px;
+  overflow: scroll;
+  border-radius: 20px;
+  transition: 0.6s ease-out;
+  background-color: #ffffff0c;
+  border-radius: 20px;
+  box-shadow: 0 25px 45px rgb(0, 0, 0, 0.2);
+  border: 2px solid rgb(255, 255, 255, 0.2);
+  border-right: 2px solid rgb(255, 255, 255, 0.1);
+  border-bottom: 2px solid rgb(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.search_icon {
+  width: 20px;
+  height: 20px;
+}
+.search_button {
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 100px;
+  background-color: rgba(84, 175, 228, 0.578);
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.search_button:active {
+  background-color: rgba(0, 187, 255, 0.594);
+}
+.gps_icon {
+  width: 30px;
+  height: 30px;
+}
+input {
+  font-size: 25px;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.water_icon {
+  height: 30px;
+  width: 30px;
+}
+.wind_icon {
+  height: 30px;
+  width: 30px;
+}
+
+.wether_details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+  font-size: 18px;
+}
+
+.humidity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.wind {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.wether_box {
+  text-align: center;
+  /* margin-top: 90px; */
+}
+.oops {
+  font-size: 30px;
+  display: none;
+}
+.img_404 {
+  margin-bottom: 40px;
+  /* margin-top: 20px; */
+}
+img {
+  width: 50%;
+}
+.temperature {
+  font-size: 40px;
+  font-weight: 700o;
+  margin-bottom: 20px;
+}
+.condition {
+  font-size: 30px;
+  font-weight: 700o;
+  color: #fff;
+}
+.humidity p {
+  font-size: 10px;
+  font-weight: 300;
+}
+.wind P {
+  font-size: 10px;
+  font-weight: 300;
+}
